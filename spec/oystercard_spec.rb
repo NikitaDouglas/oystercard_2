@@ -10,7 +10,7 @@ describe Oystercard do
     expect(subject.journeys).to eq []
   end
 
-  it 'has a balance' do
+  it 'has a default balance' do
     expect(subject.balance).to eq(Oystercard::DEFAULT_BALANCE)
   end
 

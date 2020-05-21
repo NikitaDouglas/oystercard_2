@@ -2,8 +2,8 @@
 
 class Oystercard
   TOP_UP_LIMIT = 100
-  MINIMUM_FARE = 4
-  DEFAULT_BALANCE = 3
+  MINIMUM_FARE = 1
+  DEFAULT_BALANCE = 0
 
   attr_reader :balance, :entry_station, :journeys
 
